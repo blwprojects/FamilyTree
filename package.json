@@ -1,6 +1,7 @@
 {
   "name": "react-family-tree-example",
   "version": "3.2.0",
+  "homepage": "https://blwprojects.github.io/FamilyTree",
   "dependencies": {
     "classnames": "2.3.1",
     "pinch-zoom-pan": "3.0.0",
@@ -13,19 +14,18 @@
     "@types/classnames": "2.3.1",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "gh-pages": "4.0.0",
+    "gh-pages": "^4.0.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sanichkotikov.github.io/react-family-tree-example/",
   "browserslist": [
     "Chrome 74",
     "Firefox 63",
