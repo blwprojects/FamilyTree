@@ -9,10 +9,13 @@ import testTreeN1 from 'relatives-tree/samples/test-tree-n1.json';
 import testTreeN2 from 'relatives-tree/samples/test-tree-n2.json';
 import type { Node } from 'relatives-tree/lib/types';
 
-export const NODE_WIDTH = 70;
-export const NODE_HEIGHT = 80;
+import data from '../data/familyTree.json';
+
+export const NODE_WIDTH = 160;
+export const NODE_HEIGHT = 200;
 
 export const SOURCES = {
+  'data.json': data,
   'average-tree.json': averageTree,
   'couple.json': couple,
   'diff-parents.json': diffParents,

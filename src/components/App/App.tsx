@@ -43,21 +43,14 @@ export default React.memo(
       <div className={css.root}>
         <header className={css.header}>
           <h1 className={css.title}>
-            FamilyTree demo
-            <span className={css.version}>
-              core: {treePackage.version}
-            </span>
+            Lee (이) Family Tree
           </h1>
-
-          <div>
-            <label>Source: </label>
-            <SourceSelect value={source} items={SOURCES} onChange={changeSourceHandler} />
-          </div>
-
-          <a href="https://github.com/SanichKotikov/react-family-tree-example">GitHub</a>
+          <span className={css.version}>
+              version: {'1.0.0'}
+            </span>
         </header>
         {nodes.length > 0 && (
-          <PinchZoomPan min={0.5} max={2.5} captureWheel className={css.wrapper}>
+          <PinchZoomPan min={0.4} max={2.5} captureWheel className={css.wrapper}>
             <ReactFamilyTree
               nodes={nodes}
               rootId={rootId}
@@ -68,6 +61,7 @@ export default React.memo(
                 <FamilyNode
                   key={node.id}
                   node={node}
+                  customNode={node}
                   isRoot={node.id === rootId}
                   isHover={node.id === hoverId}
                   onClick={setSelectId}
@@ -86,6 +80,7 @@ export default React.memo(
         {selected && (
           <NodeDetails
             node={selected}
+            customNode={selected}
             className={css.details}
             onSelect={setSelectId}
             onHover={setHoverId}

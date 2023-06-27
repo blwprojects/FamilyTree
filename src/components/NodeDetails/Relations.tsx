@@ -20,7 +20,7 @@ export const Relations = memo(
 
     return (
       <div>
-        <h4>{title}</h4>
+        <h3 className={css.title}>{title}</h3>
         {items.map((item, idx) => (
           <div
             key={idx}
@@ -29,7 +29,7 @@ export const Relations = memo(
             onMouseEnter={hoverHandler(item.id)}
             onMouseLeave={clearHandler}
           >
-            {item.id} ({item.type})
+            {item.id}
           </div>
         ))}
       </div>

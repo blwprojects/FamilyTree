@@ -5,25 +5,29 @@
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+  min-width: 200px;
 }
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin: 0 0 10px;
 }
 
 .title {
   margin: 0;
+  font-size: 18px;
 }
 
 .close {
   display: flex;
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   padding: 0;
   margin: 0;
+  margin-left: 20px;
+  font-size: 16px;
   align-items: center;
   justify-content: center;
   line-height: 1;
@@ -35,4 +39,27 @@
 
 .close:hover {
   color: #666;
+}
+
+.imageContainer {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.date {
+  margin: 0;
+  color: #000;
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }

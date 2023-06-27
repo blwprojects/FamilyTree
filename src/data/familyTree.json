@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "Father Kim",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Kim Older Brother",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Dad",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Older Brother",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Kim Dad",
+    "gender": "male",
+    "avatarId": "avatar2",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Chun Sam Soon",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Unknown Child",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Guyn",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Nim",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Hee",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Sub",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Sook Ja",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Ki",
+        "type": "blood"
+      },
+      {
+        "id": "Kim MYoung Ja",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Jo",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Chun Sam Soon",
+    "gender": "female",
+    "avatarId": "avatar1",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Kim Dad",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Unknown Child",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Guyn",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Nim",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Hee",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Sub",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Sook Ja",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Ki",
+        "type": "blood"
+      },
+      {
+        "id": "Kim MYoung Ja",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Hong Jo",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Unknown Child",
+    "gender": "",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Kim Kyung Ae",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Lee Doo Young",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Lee Young Ha",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Oak",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Jae Hyung",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Sun",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Eun",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Sook",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Lee Doo Young",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Kim Kyung Ae",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Lee Young Ha",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Oak",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Jae Hyung",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Sun",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Eun",
+        "type": "blood"
+      },
+      {
+        "id": "Lee Young Sook",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Hong Guyn",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Ronnie",
+        "type": "blood"
+      },
+      {
+        "id": "Jinny",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Kyung Nim",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Dicky",
+        "type": "blood"
+      },
+      {
+        "id": "Jimmy",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Kyung Hee",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Victor",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Hong Sub",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Patrick (Adopted)",
+        "type": "adopted"
+      }
+    ]
+  },
+  {
+    "id": "Kim Sook Ja",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Regina",
+        "type": "blood"
+      },
+      {
+        "id": "John",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Hong Ki",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Suji",
+        "type": "blood"
+      },
+      {
+        "id": "Steve?",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim MYoung Ja",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "id": "Yumi",
+        "type": "blood"
+      },
+      {
+        "id": "Jason",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Kim Hong Jo",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Father Kim",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Lee Young Ha",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Lee Young Ha",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Lee Young Ha",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Lee Young Oak",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Gary Dad",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Gary",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Gary Dad",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Lee Young Oak",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Gary",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Lee Jae Hyung",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Lee Young Sun",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Sunny Husband",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "David C.",
+        "type": "blood"
+      },
+      {
+        "id": "Hanna",
+        "type": "blood"
+      }
+    ]
+  },{
+    "id": "Sunny Husband",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Lee Young Sun",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "David C.",
+        "type": "blood"
+      },
+      {
+        "id": "Hanna",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Lee Young Eun",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "John Robbins",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Danny",
+        "type": "blood"
+      },
+      {
+        "id": "Taera",
+        "type": "blood"
+      },
+      {
+        "id": "David R.",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "John Robbins",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Lee Young Eun",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Danny",
+        "type": "blood"
+      },
+      {
+        "id": "Taera",
+        "type": "blood"
+      },
+      {
+        "id": "David R.",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Lee Young Sook",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Doo Young",
+        "type": "blood"
+      },
+      {
+        "id": "Kim Kyung Ae",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "David Wicka",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Nathan",
+        "type": "blood"
+      },
+      {
+        "id": "Brandon",
+        "type": "blood"
+      },
+      {
+        "id": "Kaylee",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "David Wicka",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Lee Young Sook",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Nathan",
+        "type": "blood"
+      },
+      {
+        "id": "Brandon",
+        "type": "blood"
+      },
+      {
+        "id": "Kaylee",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Ronnie",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Hong Guyn",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Jinny",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Kim Hong Guyn",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Dicky",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Kyung Nim",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Jimmy",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Kyung Nim",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Victor",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Kyung Hee",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Patrick (Adopted)",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Hong Sub",
+        "type": "adopted"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Regina",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Kim Sook Ja",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "John",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Sook Ja",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Suji",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Hong Ki",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Steve?",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim Hong Ki",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Yumi",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Kim MYoung Ja",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Jason",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Kim MYoung Ja",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Gary",
+    "gender": "male",
+    "avatarId": "Gary",
+    "parents": [
+      {
+        "id": "Lee Young Oak",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "David C.",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Sun",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Hanna",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Young Sun",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Danny",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Eun",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Taera",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Young Eun",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "David R.",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Eun",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Nathan",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Sook",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Brandon",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Sook",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Kaylee",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Young Sook",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  }
+]
