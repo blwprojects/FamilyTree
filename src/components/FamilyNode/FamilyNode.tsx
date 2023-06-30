@@ -36,7 +36,8 @@ export const FamilyNode = React.memo(
           <div className={classNames(css.imageContainer, css[node.gender])}>
             <img src={avatar} className={css.image} />
           </div>
-          <div className={css.id}>{node.id}</div>
+          <div className={css.id}>{customNode?.name || node.id}</div>
+          {customNode?.koreanName && <div className={css.id}>{customNode.koreanName}</div>}
           <div className={css.date}>{'xxxx-xxxx'}</div>
         </div>
         {node.hasSubTree && (

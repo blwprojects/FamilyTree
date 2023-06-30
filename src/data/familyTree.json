@@ -17,6 +17,58 @@
     ]
   },
   {
+    "id": "Chun Dad",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Chun Mom",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Chun Sister #1",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sister #2",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ]
+  },
+  {
+    "id": "Chun Mom",
+    "gender": "female",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Chun Dad",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Chun Sister #1",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sister #2",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Sam Soon",
+        "type": "blood"
+      }
+    ]
+  },
+  {
     "id": "Kim Older Brother",
     "gender": "male",
     "parents": [
@@ -56,7 +108,7 @@
         "type": "blood"
       },
       {
-        "id": "Kim Hong Guyn",
+        "id": "Kim Hong Gyun",
         "type": "blood"
       },
       {
@@ -80,7 +132,7 @@
         "type": "blood"
       },
       {
-        "id": "Kim MYoung Ja",
+        "id": "Kim Young Ja",
         "type": "blood"
       },
       {
@@ -90,11 +142,60 @@
     ]
   },
   {
+    "id": "Chun Sister #1",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Chun Mom",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Dad",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+    
+    ],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Chun Sister #2",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Chun Mom",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Dad",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+    
+    ],
+    "spouses": [],
+    "children": []
+  },
+  {
     "id": "Chun Sam Soon",
     "gender": "female",
     "avatarId": "avatar1",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      {
+        "id": "Chun Mom",
+        "type": "blood"
+      },
+      {
+        "id": "Chun Dad",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      
+    ],
     "spouses": [
       {
         "id": "Kim Dad",
@@ -111,7 +212,7 @@
         "type": "blood"
       },
       {
-        "id": "Kim Hong Guyn",
+        "id": "Kim Hong Gyun",
         "type": "blood"
       },
       {
@@ -135,7 +236,7 @@
         "type": "blood"
       },
       {
-        "id": "Kim MYoung Ja",
+        "id": "Kim Young Ja",
         "type": "blood"
       },
       {
@@ -163,6 +264,7 @@
   },
   {
     "id": "Kim Kyung Ae",
+    "koreanName": "김경애",
     "gender": "female",
     "parents": [
       {
@@ -210,6 +312,7 @@
   },
   {
     "id": "Lee Doo Young",
+    "koreanName": "이두영",
     "gender": "male",
     "parents": [],
     "siblings": [],
@@ -247,7 +350,8 @@
     ]
   },
   {
-    "id": "Kim Hong Guyn",
+    "id": "Kim Hong Gyun",
+    "koreanName": "김횽균",
     "gender": "male",
     "parents": [
       {
@@ -274,6 +378,7 @@
   },
   {
     "id": "Kim Kyung Nim",
+    "koreanName": "김경님",
     "gender": "female",
     "parents": [
       {
@@ -300,6 +405,7 @@
   },
   {
     "id": "Kim Kyung Hee",
+    "koreanName": "김경히",
     "gender": "female",
     "parents": [
       {
@@ -322,6 +428,7 @@
   },
   {
     "id": "Kim Hong Sub",
+    "koreanName": "김홍섭",
     "gender": "male",
     "parents": [
       {
@@ -344,6 +451,7 @@
   },
   {
     "id": "Kim Sook Ja",
+    "koreanName": "김숙자",
     "gender": "female",
     "parents": [
       {
@@ -370,6 +478,7 @@
   },
   {
     "id": "Kim Hong Ki",
+    "koreanName": "김횽기",
     "gender": "male",
     "parents": [
       {
@@ -395,7 +504,7 @@
     ]
   },
   {
-    "id": "Kim MYoung Ja",
+    "id": "Kim Young Ja",
     "gender": "male",
     "parents": [
       {
@@ -439,6 +548,7 @@
   },
   {
     "id": "Lee Young Ha",
+    "koreanName": "이영하",
     "gender": "female",
     "parents": [
       {
@@ -451,45 +561,48 @@
       }
     ],
     "siblings": [],
-    "spouses": [],
-    "children": []
+    "spouses": [
+      {
+        "id": "Mr. Song",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Gail Song",
+        "type": "blood"
+      },
+      {
+        "id": "Paul Song",
+        "type": "blood"
+      }
+    ]
   },
   {
-    "id": "Lee Young Ha",
-    "gender": "female",
-    "parents": [
+    "id": "Mr. Song",
+    "gender": "male",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
       {
-        "id": "Lee Doo Young",
+        "id": "Lee Young Ha",
+        "type": "married"
+      }
+    ],
+    "children": [
+      {
+        "id": "Gail Song",
         "type": "blood"
       },
       {
-        "id": "Kim Kyung Ae",
+        "id": "Paul Song",
         "type": "blood"
       }
-    ],
-    "siblings": [],
-    "spouses": [],
-    "children": []
-  },
-  {
-    "id": "Lee Young Ha",
-    "gender": "female",
-    "parents": [
-      {
-        "id": "Lee Doo Young",
-        "type": "blood"
-      },
-      {
-        "id": "Kim Kyung Ae",
-        "type": "blood"
-      }
-    ],
-    "siblings": [],
-    "spouses": [],
-    "children": []
+    ]
   },
   {
     "id": "Lee Young Oak",
+    "name": "Lee Young Ok",
     "gender": "female",
     "parents": [
       {
@@ -517,6 +630,8 @@
   },
   {
     "id": "Gary Dad",
+    "name": "Yong Sik Moon",
+    "koreanName": "문용식",
     "gender": "male",
     "parents": [],
     "siblings": [],
@@ -535,6 +650,7 @@
   },
   {
     "id": "Lee Jae Hyung",
+    "koreanName": "이재형",
     "gender": "male",
     "parents": [
       {
@@ -552,6 +668,7 @@
   },
   {
     "id": "Lee Young Sun",
+    "koreanName": "이영선",
     "gender": "female",
     "parents": [
       {
@@ -604,6 +721,7 @@
   },
   {
     "id": "Lee Young Eun",
+    "koreanName": "이영은",
     "gender": "female",
     "parents": [
       {
@@ -665,6 +783,7 @@
   },
   {
     "id": "Lee Young Sook",
+    "koreanName": "이영숙",
     "gender": "female",
     "parents": [
       {
@@ -726,10 +845,11 @@
   },
   {
     "id": "Ronnie",
+    "name": "Ronnie Kim",
     "gender": "male",
     "parents": [
       {
-        "id": "Kim Hong Guyn",
+        "id": "Kim Hong Gyun",
         "type": "blood"
       }
     ],
@@ -739,10 +859,11 @@
   },
   {
     "id": "Jinny",
+    "name": "Jinny Kim",
     "gender": "female",
     "parents": [
       {
-        "id": "Kim Hong Guyn",
+        "id": "Kim Hong Gyun",
         "type": "blood"
       }
     ],
@@ -752,6 +873,7 @@
   },
   {
     "id": "Dicky",
+    "name": "Dicky Kim",
     "gender": "male",
     "parents": [
       {
@@ -765,6 +887,7 @@
   },
   {
     "id": "Jimmy",
+    "name": "Jimmy Kim",
     "gender": "male",
     "parents": [
       {
@@ -778,6 +901,7 @@
   },
   {
     "id": "Victor",
+    "name": "Victor Kim",
     "gender": "male",
     "parents": [
       {
@@ -791,6 +915,7 @@
   },
   {
     "id": "Patrick (Adopted)",
+    "name": "Patrick Kim (Adopted)",
     "gender": "male",
     "parents": [
       {
@@ -804,6 +929,7 @@
   },
   {
     "id": "Regina",
+    "name": "Regina Kim",
     "gender": "female",
     "parents": [
       {
@@ -817,6 +943,7 @@
   },
   {
     "id": "John",
+    "name": "John Kim",
     "gender": "male",
     "parents": [
       {
@@ -830,6 +957,7 @@
   },
   {
     "id": "Suji",
+    "name": "Suji Kim",
     "gender": "male",
     "parents": [
       {
@@ -843,6 +971,7 @@
   },
   {
     "id": "Steve?",
+    "name": "Steve? Kim",
     "gender": "male",
     "parents": [
       {
@@ -856,10 +985,11 @@
   },
   {
     "id": "Yumi",
+    "name": "Yumi Kim",
     "gender": "female",
     "parents": [
       {
-        "id": "Kim MYoung Ja",
+        "id": "Kim Young Ja",
         "type": "blood"
       }
     ],
@@ -869,10 +999,47 @@
   },
   {
     "id": "Jason",
+    "name": "Jason Kim",
     "gender": "male",
     "parents": [
       {
-        "id": "Kim MYoung Ja",
+        "id": "Kim Young Ja",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Gail Song",
+    "name": "Gail Song",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "Lee Young Ha",
+        "type": "blood"
+      },
+      {
+        "id": "Mr. Song",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Paul Song",
+    "name": "Paul Song",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "Lee Young Ha",
+        "type": "blood"
+      },
+      {
+        "id": "Mr. Song",
         "type": "blood"
       }
     ],
@@ -882,6 +1049,8 @@
   },
   {
     "id": "Gary",
+    "name": "Gary Moon",
+    "koreanName": "문혜명",
     "gender": "male",
     "avatarId": "Gary",
     "parents": [
@@ -896,6 +1065,7 @@
   },
   {
     "id": "David C.",
+    "name": "David Chung",
     "gender": "male",
     "parents": [
       {
@@ -909,6 +1079,8 @@
   },
   {
     "id": "Hanna",
+    "name": "Hanna Chung",
+    "koreanName": "정하나",
     "gender": "female",
     "parents": [
       {
@@ -922,6 +1094,7 @@
   },
   {
     "id": "Danny",
+    "name": "Danny Robbins",
     "gender": "male",
     "parents": [
       {
@@ -935,6 +1108,7 @@
   },
   {
     "id": "Taera",
+    "name": "Taera Robbins",
     "gender": "female",
     "parents": [
       {
@@ -948,6 +1122,7 @@
   },
   {
     "id": "David R.",
+    "name": "David Robbins",
     "gender": "male",
     "parents": [
       {
@@ -961,6 +1136,7 @@
   },
   {
     "id": "Nathan",
+    "name": "Nathan Wicka",
     "gender": "male",
     "parents": [
       {
@@ -974,6 +1150,7 @@
   },
   {
     "id": "Brandon",
+    "name": "Brandon Wicka",
     "gender": "male",
     "parents": [
       {
@@ -987,6 +1164,7 @@
   },
   {
     "id": "Kaylee",
+    "name": "Kaylee Wicka",
     "gender": "female",
     "parents": [
       {

@@ -19,6 +19,7 @@ export interface ICustomNode {
   id: string;
   gender: string;
   name?: string;
+  koreanName?: string;
   info?: string;
   avatarId?: string;
   parents: readonly Relation[];
