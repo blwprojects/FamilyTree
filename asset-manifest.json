@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FamilyTree/static/css/main.4a384b0f.css",
-    "main.js": "/FamilyTree/static/js/main.ae87f27c.js",
+    "main.css": "/FamilyTree/static/css/main.57287d5c.css",
+    "main.js": "/FamilyTree/static/js/main.7387fbb4.js",
     "static/media/avatar1.jpeg": "/FamilyTree/static/media/avatar1.fd51aa3bf9b8c8f0edd7.jpeg",
     "static/media/gary.jpeg": "/FamilyTree/static/media/gary.e2f17a6dce30f7c55057.jpeg",
     "static/media/avatar2.jpeg": "/FamilyTree/static/media/avatar2.e394fc8422f29a153748.jpeg",
     "static/media/noimage.png": "/FamilyTree/static/media/noimage.8d49e377c7c342895ec2.png",
     "index.html": "/FamilyTree/index.html",
-    "main.4a384b0f.css.map": "/FamilyTree/static/css/main.4a384b0f.css.map",
-    "main.ae87f27c.js.map": "/FamilyTree/static/js/main.ae87f27c.js.map"
+    "main.57287d5c.css.map": "/FamilyTree/static/css/main.57287d5c.css.map",
+    "main.7387fbb4.js.map": "/FamilyTree/static/js/main.7387fbb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a384b0f.css",
-    "static/js/main.ae87f27c.js"
+    "static/css/main.57287d5c.css",
+    "static/js/main.7387fbb4.js"
   ]
 }
